@@ -16,7 +16,7 @@ const createHtml = (gamesList) => {
     const nameOfGame = listOfGames[i].name;
     const numberOfTags = listOfGames[i].tags.length;
 
-    gameContainer.innerHTML += `<div>
+    gameContainer.innerHTML += `<div class="games">
                                 <h2>${nameOfGame}</h2>
                                 <p>Rating: ${gameRating}</p>
                                 <p>Number of Tags: ${numberOfTags}</p>
